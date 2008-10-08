@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PSBase">
+      <UniqueIdentifier>{6b00667a-e5a3-4517-a029-5cd58ff32f08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\PSBase\PS3DMath.cpp">
+      <Filter>PSBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PSBase\PSGeometry.cpp">
+      <Filter>PSBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PSBase\PSMaterial.cpp">
+      <Filter>PSBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PSBase\PSSkining.cpp">
+      <Filter>PSBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PSBase\ArchiScene.cpp" />
+    <ClCompile Include="D3DSkinMesh.cpp" />
+    <ClCompile Include="X2PSConverter.cpp" />
+    <ClCompile Include="X2PSHConv.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\PSBase\PS3DMath.h">
+      <Filter>PSBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PSBase\PSGeometry.h">
+      <Filter>PSBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PSBase\PSMaterial.h">
+      <Filter>PSBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PSBase\PSSkining.h">
+      <Filter>PSBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PSBase\ArchiScene.h" />
+    <ClInclude Include="D3DSkinMesh.h" />
+    <ClInclude Include="X2PSHConv.h" />
+  </ItemGroup>
+</Project>

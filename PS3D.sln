@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{81B669FD-CFEB-4436-8744-A7E2CA6B1F34}"
+	ProjectSection(SolutionItems) = preProject
+		..\Document\PS3D.vsd = ..\Document\PS3D.vsd
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PS3DViewer", "PS3DViewer\PS3DViewer.vcxproj", "{86A5B105-62D5-487D-AD52-51D853D9DDF4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "X2PSHConverter", "X2PSHConverter\X2PSHConverter.vcxproj", "{3A68081D-E8F9-4523-9436-530DE9E5530F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BVH2PSMConverter", "BVH2PSMConverter\BVH2PSMConverter.vcxproj", "{BC733EEF-09CA-4F66-87AE-3290FD3D1B2D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Jpeg", "Jpeg\Jpeg.vcxproj", "{CD7F625C-0894-4499-91FE-DBB01BAF4F09}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JpegMgr", "JpegMgr\JpegMgr.vcxproj", "{5A52F6DB-98FD-45E1-8D11-02537A74FDD2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "Zlib\Project\win32\zlib.vcxproj", "{C659C0C7-2663-4235-9D03-0563563BD3B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86A5B105-62D5-487D-AD52-51D853D9DDF4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{86A5B105-62D5-487D-AD52-51D853D9DDF4}.Debug|Win32.Build.0 = Debug|Win32
+		{86A5B105-62D5-487D-AD52-51D853D9DDF4}.Release|Win32.ActiveCfg = Release|Win32
+		{86A5B105-62D5-487D-AD52-51D853D9DDF4}.Release|Win32.Build.0 = Release|Win32
+		{3A68081D-E8F9-4523-9436-530DE9E5530F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A68081D-E8F9-4523-9436-530DE9E5530F}.Debug|Win32.Build.0 = Debug|Win32
+		{3A68081D-E8F9-4523-9436-530DE9E5530F}.Release|Win32.ActiveCfg = Release|Win32
+		{3A68081D-E8F9-4523-9436-530DE9E5530F}.Release|Win32.Build.0 = Release|Win32
+		{BC733EEF-09CA-4F66-87AE-3290FD3D1B2D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC733EEF-09CA-4F66-87AE-3290FD3D1B2D}.Debug|Win32.Build.0 = Debug|Win32
+		{BC733EEF-09CA-4F66-87AE-3290FD3D1B2D}.Release|Win32.ActiveCfg = Release|Win32
+		{BC733EEF-09CA-4F66-87AE-3290FD3D1B2D}.Release|Win32.Build.0 = Release|Win32
+		{CD7F625C-0894-4499-91FE-DBB01BAF4F09}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CD7F625C-0894-4499-91FE-DBB01BAF4F09}.Debug|Win32.Build.0 = Debug|Win32
+		{CD7F625C-0894-4499-91FE-DBB01BAF4F09}.Release|Win32.ActiveCfg = Release|Win32
+		{CD7F625C-0894-4499-91FE-DBB01BAF4F09}.Release|Win32.Build.0 = Release|Win32
+		{5A52F6DB-98FD-45E1-8D11-02537A74FDD2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A52F6DB-98FD-45E1-8D11-02537A74FDD2}.Debug|Win32.Build.0 = Debug|Win32
+		{5A52F6DB-98FD-45E1-8D11-02537A74FDD2}.Release|Win32.ActiveCfg = Release|Win32
+		{5A52F6DB-98FD-45E1-8D11-02537A74FDD2}.Release|Win32.Build.0 = Release|Win32
+		{C659C0C7-2663-4235-9D03-0563563BD3B2}.Debug|Win32.ActiveCfg = LIB Debug|Win32
+		{C659C0C7-2663-4235-9D03-0563563BD3B2}.Debug|Win32.Build.0 = LIB Debug|Win32
+		{C659C0C7-2663-4235-9D03-0563563BD3B2}.Release|Win32.ActiveCfg = LIB Release|Win32
+		{C659C0C7-2663-4235-9D03-0563563BD3B2}.Release|Win32.Build.0 = LIB Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60793046-3C11-4EA8-9A54-1E0A1BF71E67}
+	EndGlobalSection
+EndGlobal
